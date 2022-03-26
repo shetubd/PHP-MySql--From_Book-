@@ -1,0 +1,65 @@
+# PHP 5 advanced Visual quickpro Guid
+# Page 97
+	# create sessions table
+	create table sessions (
+	session_id CHAR(32) NOT NULL,
+	data TEXT,
+	last_accessed TIMESTAMP NOT NULL,
+	PRIMARY KEY (session_id)
+	);
+	# note :
+		session_set_save_handler("open_session","close_session",
+		"read_session", "write_session","destroy_session",
+		"clean_session");
+# Page 24
+# database
+    php5vqg
+# Table tasks
+CREATE TABLE tasks(
+task_id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+parent_id INT UNSIGNED NOT NULL DEFAULT 0,
+task VARCHAR(100) NOT NULL,
+date_added TIMESTAMP NOT NULL,
+date_completed TIMESTAMP,
+PRIMARY KEY (task_id),
+INDEX parent (parent_id),
+INDEX added (date_added),
+INDEX completed (date_completed)
+);
+
+# Test insert query
+INSERT INTO tasks (task) VALUES ("Must Do This!");
+# Select DATA
+SELECT * FROM tasks;
+
+
+// Check if the form has been submitted
+
+// Sanctify the input
+
+// The parent_id must be an integer
+
+
+// Escape the task:
+// By deffault Magic Quotes are off!
+
+// bind Parameter
+
+// Add the task to the database
+
+// Report on the results
+
+// Display the form
+
+// End of IF statement
+
+// Retrieve all the uncompleted tasks
+
+// Store data in ARRAY
+
+// Tips use hidden form value
+
+// Sort the tasks by parent_id
+
+// Display all the tasks
+

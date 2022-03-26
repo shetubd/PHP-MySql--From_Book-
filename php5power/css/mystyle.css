@@ -1,0 +1,70 @@
+.result {
+    background-color: rgba(33, 143, 62, 0.341);
+    text-emphasis-color: red;
+    --text-align: justify;
+    width: 40%;
+    border: 2px solid green;
+    padding: 50px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrayTxt {
+    margin-top: 12px;
+    margin-left: 35%;
+    color: black;
+}
+
+.showArray {
+    font-size: size 35px;
+    background-color: rgb(181, 212, 181);
+    border: 2px solid red;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#tableBill {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tableBill td,
+#tableBill th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#tableBill tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tableBill tr:hover {
+    background-color: #ddd;
+}
+
+#tableBill th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.table1 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(110, 169, 217);
+}
